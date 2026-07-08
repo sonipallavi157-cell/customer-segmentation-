@@ -11,7 +11,7 @@ st.set_page_config(
 st.title("📊 Customer Segmentation Dashboard")
 
 # Load dataset
-df = pd.read_csv("customer-segmentation.csv")
+df = pd.read_csv("clients.csv")
 
 # Show dataset
 st.subheader("Dataset Preview")
